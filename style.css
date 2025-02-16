@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+body {
+    background-image: url(./Assets/joanna-kosinska-7ACuHoezUYk-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: rgb(255, 255, 0);
+  }
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    border-radius: 10px;
+  }
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.7);
+    border-bottom: 2px solid #e94560;
+  }
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+  }
+
+.navbar a {
+    color: rgb(255, 255, 0);
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background 0.3s;
+    background: #010406;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+.navbar a:hover {
+    background: #e94560;
+  }
+
+/* Home Section */
+.home {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+
+.home-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+
+/* Projects */
+.projects .project-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+
+.project-item {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+
+.project-item:hover {
+    transform: scale(1.1);
+  }
+
+/* Skills */
+.skills .skills-list span {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+
+/* Contact */
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+
+.contact input, .contact textarea {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+
+.contact button {
+    padding: 10px 20px;
+    background: #e94560;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+/* Footer */
+.footer {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid #e94560;
+  }
+
+.footer p {
+    margin: 0;
+  }
+
+.social-links {
+    margin-top: 10px;
+  }
+
+.social-links a {
+    color: rgb(255, 255, 0);
+    text-decoration: none;
+    margin: 0 10px;
+  }
